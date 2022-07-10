@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            grid-template-rows:repeat(3,1fr);
+            width:90%;
+            margin:auto;
+            gap:10px;
+        }
+        .container>div>div{
+            display:flex;
+            align-items:center;
+            
+        }
+        .container>div>div *{
+             margin-left:5px;
+             margin:5px;
+        }
+        .container>div>div>strike+h2{
+            color:green;
+        }
+        .container>div{
+            padding-left:10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .container>div *{
+            margin:5px;
+        }
+        img{
+            width:50%;
+            height:200px;
+        }
+    .Team-name{
+        text-align:center;
+        border:3px solid transparent;
+        border-image:url("https://th.bing.com/th/id/OIP.DyUcr8kN98iWkdRJ41DcbAHaFC?pid=ImgDet&rs=1") 30 / 19px round;
+        padding:20px;
+        margin:auto;
+        width: 300px;
+        height:40px;
+        color:coral;
+    }
+    strike>h3{
+        color:gray;
+    }
+    .container>div>h3{
+        color:gray;
+    }
+   
+    </style>
+</head>
+<body>
+    <h1 class="Team-name"><span>Masai Developers</span></h1>
+    <div class="container">
+
+        <div>
+            <img src="https://m.media-amazon.com/images/I/91DYqON8D3L._AC_UL320_.jpg">
+            <h1>Arany's</h1>
+            <h3>Arayna Women's Cotton Printed Anarkali Kurti with Palazzo Pants Set, Floral</h3>
+            <div>
+                <h2>₹ 800</h2>
+                <strike><h3>₹ 1499</h3></strike>
+                <h2 class="green">-76%</h2>
+            </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/718MhHS1dWL._AC_UL320_.jpg">
+            <h1>Anni Designer</h1>
+            <h3>Women's Cotton Regular Top (TP-COT-10172-MULTICOLOR)</h3>
+            <div>
+                <h2>₹ 299</h2>
+                <strike><h3>₹ 1299</h3></strike>
+                <h2>-76%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/91lK611LJfL._AC_UL320_.jpg">
+            <h1>komal sarees</h1>
+            <h3>Women's Chiffon Floral Printed Sraee With Blouse</h3>
+            <div>
+                <h2>₹ 499</h2>
+                <strike><h3>₹ 1499</h3></strike>
+                <h2>-76%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/711A6wvWJiL._AC_UL320_.jpg">
+            <h1>Sightbomb</h1>
+            <h3>Ribbed Polo Collared Spaghetti Full Length Tops for Women</h3>
+            <div>
+                <h2>₹ 409</h2>
+                <strike><h3>₹ 1399</h3></strike>
+                <h2>-57%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61Nzdg+kIOL._AC_UL320_.jpg">
+            <h1>People Wear</h1>
+            <h3>Ribbed Color Block Button Cardigan for Women</h3>
+            <div>
+                <h2>₹ 399</h2>
+                <strike><h3>₹ 899</h3></strike>
+                <h2>-43%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/41Y+CGvDpbL._AC_UL320_.jpg">
+            <h1>Greciilooks</h1>
+            <h3>Women's Cotton Lycra Tie-Dye Night Suit Set Night Dress,Loung...</h3>
+            <div>
+                <h2>₹ 659</h2>
+                <strike><h3>₹ 2299</h3></strike>
+                <h2>-71%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61bf9K3jF7L._AC_UL320_.jpg">
+            <h1>Anny's Designer</h1>
+            <h3>Women's Crepe Printed Straight Kurta (Hing)</h3>
+            <div>
+                <h2>₹ 199</h2>
+                <strike><h3>₹ 2599</h3></strike>
+                <h2>-92%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/61CD7jRIVRL._AC_UL320_.jpg">
+            <h1>Lymio</h1>
+            <h3>Women's Regular Top</h3>
+            <div>
+                <h2>₹ 399</h2>
+                <strike><h3>₹ 1499</h3></strike>
+                <h2>-76%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/81dkSgs7nsL._AC_UL320_.jpg">
+            <h1>Dhroovi Trends</h1>
+            <h3>Soft Cotton Silk Foil Printed Saree For Women Half Sarees Under</h3>
+            <div>
+                <h2>₹ 399</h2>
+                <strike><h3>₹ 1999</h3></strike>
+                <h2>-80%</h2>
+        </div>
+        </div>
+        <div>
+            <img src="https://m.media-amazon.com/images/I/51IAgWvFuGS._AC_UL320_.jpg">
+            <h1>Lymio</h1>
+            <h3>Women Rayon Casual Wear Western Maxi Dress Gown for</h3>
+            <div>
+                <h2>₹ 399</h2>
+                <strike><h3>₹ 1399</h3></strike>
+                <h2>-67%</h2>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
